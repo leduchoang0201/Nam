@@ -1,0 +1,118 @@
+body{
+  margin: 0;
+  background-color: white;
+}
+* {
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+}
+header{
+  padding: 20px 0;
+  background-color: #18a065;
+  display: flex;
+}
+p{
+  padding: 0 10px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+.img-container {
+  background-color: white;
+  padding: 4px;
+  padding-left: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+.title-container{
+  padding: 0 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.title-container h1, .title-container h2 {
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.title-container h2{
+  font-size: 22px;
+  color:beige;
+  margin-top: 2px;
+}
+.img, .avatar{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+.container{
+  padding: 20px;
+  background-color:rgba(234, 238, 241, 0.774);
+  display: flex;
+}
+.sider, .content{
+  background-color:#f3fcf8;
+  padding: 20px 0;
+  width: 30%;
+}
+.sider{
+  width: calc(40%-20px);
+  margin-right: 20px;
+}
+.content {
+  flex-grow: 1;
+}
+.tag-fill{
+  background-color: #18a065;
+  padding: 8px 20px;
+  color: white;
+  font-size: 18px;
+  display: inline;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+.tag-content {
+  padding-left: 20px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.tag-content ul{
+  margin: 0;
+  padding: 0;
+}
+.tag-content ul li{
+  list-style-type: none;
+  padding: 8px 0;
+}
+.progress-container{
+  width: 80%;
+}
+.progress-title{
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+.progress-wrap{
+  width: 100%;
+  height: 10px;
+  background-color: #e0e0e0;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+.progress{
+  width: 50%;
+  height: 10px;
+  background-color: #18a065;
+}
+.tag{
+  font-size: 18px;
+  color: #212121;
+  padding: 10px 20px ;
+  border-left: 18px solid #18a065;
+  margin-bottom: 20px;
+}
