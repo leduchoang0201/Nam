@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng dữ liệu</title>
+    <link rel="stylesheet" href="./table.css">
+    <script src="table.js"></script>
+    <script src='https://cdn.jsdelivr.net/g/lodash@4(lodash.min.js+lodash.fp.min.js)'></script>
+</head>
+<body>
+    <header class="title">
+        <div class="home">
+            <a href="index.html">Home</a>
+        </div>
+        <div class="menu">
+            <div class="item">
+                <a href="Implement.html">Implement</a>
+            </div>
+            <div class="item">
+                <a href="Design.html">Design</a>
+            </div>
+            <div class="item">
+                <a href="Requirement.html">Requirement</a>
+            </div>
+        </div>
+    </header>
+    <div class="body">
+
+    
+    <div class="data">
+        <h1>Nhập dữ liệu</h1>
+            
+        <label for="id">Mã KH: </label>   
+        <input type="text" name="" id="id" placeholder="Nhập mã khách hàng"><br>
+        <label for="name">Tên khách hàng:  </label> 
+        <input type="text" name="" id="name" placeholder="Nhập tên khách hàng"> <br>
+        <label for="nameP">Sản phẩm:  </label>
+        <input type="text" name="" id="nameP" placeholder="Nhập tên sản phẩm"> <br>
+        <label for="day">Ngày đặt hàng: </label>
+        <input type="date" name="" id="day" placeholder="Chọn ngày đặt hàng"> <br>
+        <label for="quantity">Số lượng: </label>
+        <input type="text" name="" id="quantity" placeholder="Nhập số lượng"> <br>
+        <button class="button"type="button" id="add-button" onclick="addProduct()">Thêm dữ liệu</button>
+    </div>  
+    
+    <div class="list" id="list">
+        <H1>
+            BẢNG THEO DÕI ĐƠN ĐẶT HÀNG
+        </H1>
+        <label for="search">Tìm kiếm theo mã khách hàng: </label>
+        <input type="text" name="" id="search" placeholder="Nhập mã khách hàng" oninput="searchID()">  <br>
+        <table id="list-product" width="700px" border="1" >
+
+        </table>
+        </div>
+    </div>
+</body>
+</html>

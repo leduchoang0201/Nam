@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    background-color: white;
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+header{
+    padding: 20px 0;
+    background-color: #18a065;
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    background-color:rgba(234, 238, 241, 0.774);
+}
+.home{
+    background-color: white;
+    padding: 4px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    width: 150px;
+    height: 100px;
+}
+.home a{
+    color: black;
+    font-size: 50px;
+    text-decoration: none;
+}
+.home a:hover{
+    color: rgb(43, 185, 233);
+    font-size: 50px;
+    text-decoration: none;
+}
+.menu{
+    display: flex;
+}
+.item{
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin: 30px;
+}
+.item:hover{
+    background-color: rgb(225, 225, 163);
+}
+.item a{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+.item a:hover{
+    color: rgb(43, 185, 233);
+    text-decoration: none;
+    font-size: 25px;
+}
+.container{
+    text-align: center;
+    background-image: url(tieude.jpg);
+    margin: 30px;
+    height: 150px;
+    
+}
+.container h1{
+    padding-top: 30px;
+}
+.line{
+    width: 600px;
+    height: 10px;
+    background-color: #18a065;
+    display: inline-block;
+}
+.demand{
+    margin: 30px;   
+    background-color:#F3FCF8;
+    height: 300px;
+}
+.demand ul{
+    list-style: decimal;
+    padding: 40px;
+    font-size: 20px
+}
+.demand ul li{
+    margin-bottom: 15px;
+}

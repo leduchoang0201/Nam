@@ -26,6 +26,27 @@ p{
   border-top-right-radius: 100px;
   border-bottom-right-radius: 100px;
 }
+.menu{
+  background-color: #F3FCF8;
+  width: 300px;
+  height: 120px;
+  border: 1px solid black;
+  list-style: none;
+}
+.menu li{
+  padding-bottom: 5px;
+}
+.menu li:hover{
+  background-color: rgb(225, 225, 163);
+}
+.menu li a{
+  text-decoration: none;
+  color: black;
+}
+.menu li a:hover{
+  text-decoration: none;
+  color: #18A065;
+}
 .title-container{
   padding: 0 30px;
   display: flex;
@@ -115,4 +136,14 @@ p{
   padding: 10px 20px ;
   border-left: 18px solid #18a065;
   margin-bottom: 20px;
+} 
+.title-container ul {
+  position: relative;
+  
+}
+.title-container ul li ul.menu  {
+position: absolute;
+display: none;
+}.title-container ul li:hover ul.menu{
+display: block;
 }
